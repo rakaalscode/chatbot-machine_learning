@@ -1,0 +1,23 @@
+{"intents": [
+        {"tag": "salam",     
+         "patterns": ["Hai", "Hallo", "Halo", "Salam", "Permisi", "Selamat Pagi", "Mau Bertanya"],
+         "responses": ["Hai Ada yang bisa saya bantu?", "Halo, apakah ada yang bisa dibantu?"],
+         "context_set": ""
+        },
+        {"tag": "salam2",     
+        "patterns": ["Assalamualaikum", "Assalamu'alaikum", "ass wr wb", "Assalamualaikum warohmatullahi wabarokatu"],
+        "responses": ["Walakumsalam, ada yang bisa saya bantu?", "wa'alakumsalam, bisa saya bantu?"],
+        "context_set": ""
+        },
+        {"tag": "terimakasih",     
+        "patterns": ["Terimakasih", "Terima kasih", "thanks", "tq", "trims"],
+        "responses": ["Senang bisa membantu :)", "terimakasih kembali", "sama sama :)"],
+        "context_set": ""
+        },
+        {"tag": "perpisahan",     
+        "patterns": ["babay", "Bye", "Sampai jumpa", "see ya", "see u", "see you", "selamat tinggal", "bay", "love you", "senang bisa mengobrol"],
+        "responses": ["Sampai jumpa", "senang bisa membantu", "selamat bertemu kembali", "saya bisa diandalkan, sampai jumpa"],
+        "context_set": ""
+        }
+   ]
+}
